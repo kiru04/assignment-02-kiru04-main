@@ -1,0 +1,58 @@
+/*
+ * Assignment 02
+ * CSS FILE
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  color:#0f1010;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.flex-container{
+  border: 1px solid #f1faee;
+  border-radius: 10px;
+
+}
+
+main{
+
+  max-width: 900px;
+  margin: 30px auto ;
+  padding: 30px;
+  background-color: #eec7c7 ;
+  box-shadow: 0 0 10px rgb(5,5,5,0);
+}
+header{
+  background-color: #f1faee;
+  padding: 20px; 
+  color: #1b1917;
+  text-align: center;
+}
+header h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1c92cd;
+}
+header h2{
+  font-size: 30px;
+  color: #1b1917;
+}
+header img{
+  max-width: 100%;
+  max-height: auto;
+  margin: 10%;
+}
+h3 {
+  font: size 10px ;
+}
