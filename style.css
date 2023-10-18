@@ -67,11 +67,14 @@ header ul {
 main{
   color: #7a0505;
   max-width: 900px;
-  margin: 30px auto ;
+  margin: 10px auto ;
   padding: 30px;
   background-color: #eec7c7 ;
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
+main img{
+  
+  margin : 50px;}
 form{
   color: #7a0505;
 }
