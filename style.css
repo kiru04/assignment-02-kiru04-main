@@ -16,10 +16,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
+
+  margin: auto;
 }
 
 header {
-  
   background-color: #eec7c7;
 }
 
@@ -38,7 +39,7 @@ header h2{
 header img{
   max-width: 100%;
   max-height: auto;
-  margin: 40px;
+  margin: 20px;
   padding: 30px;
   
   align-items: stretch; 
@@ -73,9 +74,10 @@ main{
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
 main img{
-  
+
   margin : 50px;}
 form{
+  margin: 50px;
   color: #7a0505;
 }
 footer nav h3 {
