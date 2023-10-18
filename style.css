@@ -3,10 +3,9 @@
  * CSS FILE
  */
 
-body {
+body { 
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  color:#0f1010;
   font-size: 1.5rem;
   line-height: 1.6;
 
@@ -18,41 +17,70 @@ body {
   justify-content: space-between;
   align-items: stretch;
 }
+
+header {
+  
+  background-color: #eec7c7;
+}
+
+header h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #7a0505;
+}
+
+header h2{
+  font-size: 30px;
+  color: #7a0505;
+}
+header img{
+  max-width: 100%;
+  max-height: auto;
+
+} 
+header nav h3 {
+  color: #206f96;
+  font: size 10px ;
+}
+header nav{
+  background-color: #e1e8eb;
+  color: #603d1a;
+  text-align: center;
+}
+header ul {
+  background-color: #e2d0d0;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
 .flex-container{
-  border: 1px solid #f1faee;
+  border: 1px solid #42c716;
   border-radius: 10px;
 
 }
-
 main{
-
+  color: #7a0505;
   max-width: 900px;
   margin: 30px auto ;
   padding: 30px;
   background-color: #eec7c7 ;
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
-header{
-  background-color: #f1faee;
-  padding: 20px; 
-  color: #1b1917;
-  text-align: center;
+form{
+  color: #7a0505;
 }
-header h1{
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
+footer nav h3 {
   color: #1c92cd;
-}
-header h2{
-  font-size: 30px;
-  color: #1b1917;
-}
-header img{
-  max-width: 100%;
-  max-height: auto;
-  margin: 10%;
-}
-h3 {
   font: size 10px ;
+}
+footer nav{
+  background-color: #5ec6fe;
+  color: #603d1a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
