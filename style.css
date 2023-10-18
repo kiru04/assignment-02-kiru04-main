@@ -49,9 +49,8 @@ header {
 header img{
   max-width: 100%;
   max-height: auto;
-  padding: 30px;
+  margin: 20px;
   background-color:#34344c ;
-  align-items: center; 
 
 } 
 header nav h3 {
