@@ -74,22 +74,23 @@ main{
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
 main img{
-
   margin : 50px;}
 form{
   margin: 50px;
   color: #7a0505;
 }
 footer nav h3 {
-  color: #1c92cd;
+  color: #206f96;
   font: size 10px ;
 }
 footer nav{
-  background-color: #5ec6fe;
+  background-color: #e1e8eb;
   color: #603d1a;
   text-align: center;
+}
+footer ul {
+  background-color: #e2d0d0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
+  flex-direction:row;
+  justify-content: space-around;
 }
