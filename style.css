@@ -3,7 +3,9 @@
  * CSS FILE
  */
 
-body { 
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #d2b5a6;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   font-size: 1.5rem;
@@ -20,42 +22,48 @@ body {
   margin: auto;
 }
 
-header {
-  background-color: #eec7c7;
-}
+
 
 header h1{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #7a0505;
+  color:#d2b5a6;
+  background-color: #9e3c40;
 }
 
 header h2{
-  font-size: 30px;
-  color: #7a0505;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #9e3c40;
+}
+header {
+
+  color:#9e3c40;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 header img{
   max-width: 100%;
   max-height: auto;
-  margin: 20px;
   padding: 30px;
-  
-  align-items: stretch; 
+  background-color:#34344c ;
+  align-items: center; 
 
 } 
 header nav h3 {
-  color: #206f96;
+
+  background-color: #9e3c40;
   font: size 10px ;
 }
 header nav{
-  background-color: #e1e8eb;
-  color: #603d1a;
+  color:#d2b5a6;
   text-align: center;
 }
 header ul {
-  background-color: #e2d0d0;
   display: flex;
   flex-direction:row;
   justify-content: space-around;
@@ -66,31 +74,40 @@ header ul {
 
 }
 main{
-  color: #7a0505;
-  max-width: 900px;
-  margin: 10px auto ;
-  padding: 30px;
-  background-color: #eec7c7 ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #d2b5a6;
+  max-width: 9900px;
+  background-color: #9e3c40 ;
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
 main img{
-  margin : 50px;}
+  padding: 30px;
+  align-items: center;
+  background-color: #34344c;
+}
 form{
-  margin: 50px;
-  color: #7a0505;
+  color: #d2b5a6;
+}
+form button{
+  background-color: #652628;
+  color: #d2b5a6;
 }
 footer nav h3 {
-  color: #206f96;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:#e2d0d0;
+  color:#9e3c40;
   font: size 10px ;
 }
-footer nav{
-  background-color: #e1e8eb;
-  color: #603d1a;
+footer nav h3{
+  background-color:#d2b5a6;
+  color:#9e3c40;
   text-align: center;
 }
 footer ul {
-  background-color: #e2d0d0;
+  color: #9e3c40;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #9e3c40;
   display: flex;
   flex-direction:row;
-  justify-content: space-around;
+  justify-content:space-between;
 }
