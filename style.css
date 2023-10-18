@@ -38,6 +38,9 @@ header h2{
 header img{
   max-width: 100%;
   max-height: auto;
+  margin: 40px;
+  
+   
 
 } 
 header nav h3 {
