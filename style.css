@@ -87,8 +87,11 @@ main img{
  background-color:#34344c ;
 }
 form{
+  
+  float: center;
   color: #d2b5a6;
 }
+
 form button{
   background-color: #652628;
   color: #d2b5a6;
