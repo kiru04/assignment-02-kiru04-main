@@ -20,8 +20,13 @@ body {
 
   margin: auto;
 }
-
-
+header nav{
+  color:#d2b5a6;
+  text-align: center;
+}
+header nav li{
+  border: #9e3c40;
+}
 
 header h1{
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -39,7 +44,12 @@ header h2{
   text-align: center;
   color: #9e3c40;
 }
-header {
+header p{
+  text-align: center;
+  font-weight: bold;
+
+}
+header P {
 
   color:#9e3c40;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -48,18 +58,11 @@ header {
 header img{
   max-width: 100%;
   margin: 0px auto;
-
   background-color:#34344c ;
 
 } 
-header nav h3 {
-  background-color: #9e3c40;
-  font: size px ;
-}
-header nav{
-  color:#d2b5a6;
-  text-align: center;
-}
+
+
 header ul {
   display: flex;
   flex-direction:row;
@@ -78,10 +81,10 @@ main{
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
 main img{
-  max-width: 100%;
+  max-width: 50%;
   margin: 0px auto;
-
-  background-color:#34344c ;
+  float: left; 
+ background-color:#34344c ;
 }
 form{
   color: #d2b5a6;
@@ -106,6 +109,7 @@ footer ul {
   font-family:Georgia, 'Times New Roman', Times, serif;
   background-color: #9e3c40;
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content: space-around;
+  align-items: center;
 }
