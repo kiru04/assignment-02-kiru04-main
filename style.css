@@ -46,7 +46,7 @@ header {
 
 }
 header img{
-  max-width: 50%;
+  max-width: 100%;
   margin: 0px auto;
 
   background-color:#34344c ;
@@ -78,9 +78,10 @@ main{
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
 main img{
-  padding: 30px;
-  align-items: center;
-  background-color: #34344c;
+  max-width: 100%;
+  margin: 0px auto;
+
+  background-color:#34344c ;
 }
 form{
   color: #d2b5a6;
@@ -106,5 +107,5 @@ footer ul {
   background-color: #9e3c40;
   display: flex;
   flex-direction:row;
-  justify-content:space-between;
+  justify-content: space-around;
 }
