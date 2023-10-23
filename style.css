@@ -81,10 +81,9 @@ main{
   box-shadow: 0 0 10px rgb(5,5,5,0);
 }
 main img{
-  max-width: 50%;
+  max-width: 100%;
   margin: 0px auto;
-  float: left; 
- background-color:#34344c ;
+ background-color:#34344c;
 }
 form{
   
